@@ -80,11 +80,11 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      title: "Finanacial- Finance Manager",
+      des: "Simplifed platform designed to help you manage your personal or business finances effectively. With this Finance SaaS Platform, you can track your income and expenses, categorize transactions, assign them to specific accounts, and import transactions using a CSV file..",
       img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg","/re.svg"],
+      link: "https://financial-yc86.vercel.app/sign-in?redirect_url=https%3A%2F%2Ffinancial-yc86.vercel.app%2F",
     },
     {
       id: 3,
