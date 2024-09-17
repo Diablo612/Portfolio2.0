@@ -22,12 +22,14 @@ export function Button({
 }: {
   borderRadius?: string;
   children: React.ReactNode;
+  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   as?: any | unknown;
   containerClassName?: string;
   borderClassName?: string;
   duration?: number;
   className?: string;
-  [key: string]: any | unknown;
+  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
+  [key: string]: any;
 }) {
   return (
     <Component
@@ -81,9 +83,11 @@ export const MovingBorder = ({
   duration?: number;
   rx?: string;
   ry?: string;
-  [key: string]: any | unknown;
+  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
+  [key: string]: any;
 }) => {
-  const pathRef = useRef<any | unknown>();
+  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
+  const pathRef = useRef<any>();
   const progress = useMotionValue<number>(0);
 
   useAnimationFrame((time) => {

@@ -184,8 +184,8 @@ const AceternityIcon = ({ order }: { order: string }) => {
     // </svg>
   );
 };
-
-export const Icon = ({ className, ...rest }: any | unknown) => {
+// eslint-disable-next-line  @typescript-eslint/no-explicit-any
+export const Icon = ({ className, ...rest }: any) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
