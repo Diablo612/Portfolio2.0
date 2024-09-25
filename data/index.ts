@@ -71,14 +71,6 @@ export const navItems = [
   
   export const projects = [
     {
-      id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "",
-    },
-    {
       id: 2,
       title: "Finanacial- Finance Manager",
       des: "Simplifed platform designed to help you manage your personal or business finances effectively. With this Finance SaaS Platform, you can track your income and expenses, categorize transactions, assign them to specific accounts, and import transactions using a CSV file..",
@@ -101,6 +93,14 @@ export const navItems = [
       img: "/p2.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://github.com/Diablo612/Native-Zoom-Clone/tree/main",
+    },
+    {
+      id: 1,
+      title: "3D Solar System Planets to Explore",
+      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      img: "/p1.svg",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      link: "",
     },
   ];
   
