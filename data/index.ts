@@ -88,11 +88,11 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "AI Podcast SaaS Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      title: "AI Podcast Application",
+      des: "A REAL Web app with AI features and a payments and credits system using the latest tech stack.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "",
+      link: "https://pods-pi.vercel.app/",
     },
     {
       id: 4,
