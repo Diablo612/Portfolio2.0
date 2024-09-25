@@ -100,7 +100,7 @@ export const navItems = [
       des: "Recreated the Zoom Clone for Android and iOS devices to video conferenceing. Seamlessly connect with colleagues and friends.",
       img: "/p2.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "",
+      link: "https://github.com/Diablo612/Native-Zoom-Clone/tree/main",
     },
   ];
   
