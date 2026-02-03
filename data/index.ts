@@ -71,12 +71,12 @@ export const navItems = [
   
   export const projects = [
     {
-      id: 2,
-      title: "Finanacial- Finance Manager",
-      des: "Simplifed platform designed to help you manage your personal or business finances effectively. With this Finance SaaS Platform, you can track your income and expenses, categorize transactions, assign them to specific accounts, and import transactions using a CSV file..",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg","/re.svg"],
-      link: "https://financial-yc86.vercel.app/sign-in?redirect_url=https%3A%2F%2Ffinancial-yc86.vercel.app%2F",
+      id: 1,
+      title: "AI Agent",
+      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      img: "/p1.svg",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      link: "https://ai-agent-olive-rho.vercel.app/",
     },
     {
       id: 3,
@@ -87,20 +87,20 @@ export const navItems = [
       link: "https://pods-pi.vercel.app/",
     },
     {
+      id: 2,
+      title: "Finanacial- Finance Manager",
+      des: "Simplifed platform designed to help you manage your personal or business finances effectively. With this Finance SaaS Platform, you can track your income and expenses, categorize transactions, assign them to specific accounts, and import transactions using a CSV file..",
+      img: "/p2.svg",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg","/re.svg"],
+      link: "https://financial-yc86.vercel.app/sign-in?redirect_url=https%3A%2F%2Ffinancial-yc86.vercel.app%2F",
+    },
+    {
       id: 4,
-      title: "Zoom Clone",
-      des: "Recreated the Zoom Clone for Android and iOS devices to video conferenceing. Seamlessly connect with colleagues and friends.",
+      title: "Github",
+      des: "All my projects AI Storyteller, RSTP Live Video, Zoom Native Clone, etc.",
       img: "/p2.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://github.com/Diablo612/Native-Zoom-Clone/tree/main",
-    },
-    {
-      id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "",
     },
   ];
   
